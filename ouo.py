@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 import requests
 
 
-for x in range(5):
+for x in range(3):
 	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
@@ -34,5 +34,5 @@ for x in range(5):
 	driver.execute_script("$('#btn-main').click()")
 	time.sleep(2)
 	print("click successful")
-	time.sleep(30)
+	time.sleep(20)
 	driver.quit() 
