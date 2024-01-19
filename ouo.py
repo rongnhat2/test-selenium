@@ -15,6 +15,7 @@ while True:
 	firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
 	firefox_options.add_argument("--headless")
+
 	driver = webdriver.Firefox(options=firefox_options)
 
 	driver.set_window_size(1920, 1080)
