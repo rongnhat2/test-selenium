@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 import requests
 
 
-for x in range(3):
+for x in range(4):
 	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
