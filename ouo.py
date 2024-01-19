@@ -33,5 +33,5 @@ while True:
 	driver.execute_script("$('#btn-main').click()")
 	time.sleep(2)
 	print("click successful")
-	time.sleep(3600)
+	time.sleep(30)
 	driver.quit() 
