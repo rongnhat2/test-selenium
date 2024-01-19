@@ -6,7 +6,7 @@ import requests
 
 
 while True:
-	url = "https://launch.rhass.vn/api/get?status=3"
+	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
 	print(response.text)
