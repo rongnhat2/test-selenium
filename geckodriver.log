@@ -55,11 +55,9 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098045162	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ng default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:54946/devtools/browser/4d25cbd1-40de-41ae-b378-c8581426b86e
-console.error: ({})
-1705752337661	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1706198248403	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+n update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1705838837940	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
@@ -69,9 +67,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098041530	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55126","sslProxy":"127.0.0.1:55126"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198263289	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:55128/devtools/browser/778caa6e-ea45-496f-85ca-c59168b94cac
 console.error: ({})
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
@@ -85,9 +82,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098042470	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55330","sslProxy":"127.0.0.1:55330"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198251189	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:55332/devtools/browser/10975cfb-6968-4831-935e-3822975a73a7
 console.error: ({})
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
@@ -101,8 +97,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098054488	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55611","sslProxy":"127.0.0.1:55611"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1706198300072	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ng default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:55613/devtools/browser/ed8030ea-694b-4769-add2-2db24d5e4121
 console.error: ({})
@@ -117,9 +113,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098150044	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55684","sslProxy":"127.0.0.1:55684"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198258919	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:55686/devtools/browser/79955ef6-076e-436a-8004-648e466214f6
 console.error: ({})
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
@@ -133,11 +128,9 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098196849	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ng default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:55776/devtools/browser/ea213a82-292e-47c0-9bf6-4c2072484c6c
-console.error: ({})
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706198248108	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ULStore.sys.mjs, line 60: Error: Can't find profile directory.
 1705752621604	addons.xpi	ERROR	System addon update list erro1705752621755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1705839022473	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
@@ -147,11 +140,9 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098224148	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ng default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:55906/devtools/browser/7f1bc521-5855-49fa-8648-a2e25d7d4deb
-console.error: ({})
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706198251936	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ULStore.sys.mjs, line 60: Error: Can't find profile directory.
 1705752652047	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1705839053177	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
@@ -162,9 +153,9 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098253642	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ificate errors will be ignored for this session
-1705752699382	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:56251","sslProxy":"127.0.0.1:56251"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1706198239367	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+torSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:56253/devtools/browser/917bb2c2-b568-4c15-95a0-d14506bed08a
 1705752733987	geckodriver	INFO	Listening on 127.0.0.1:56337
@@ -212,9 +203,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706098386012	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62058","sslProxy":"127.0.0.1:62058"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198335761	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:62060/devtools/browser/9ed1f0f1-b64e-45ff-b408-ee688e8c9d05
 Exiting due to channel error.
 Exiting due to channel error.
@@ -249,9 +239,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706099004368	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62343","sslProxy":"127.0.0.1:62343"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198244965	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:62345/devtools/browser/52f44940-8c11-4ed0-8cb8-6109e47ff8bb
 console.error: ({})
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
@@ -265,9 +254,8 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706099049714	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-nt	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:62646","sslProxy":"127.0.0.1:62646"}
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
+1706198288275	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 DevTools listening on ws://127.0.0.1:62648/devtools/browser/dc43fe82-65e7-4faf-b629-d7631136215f
 Exiting due to channel error.
 Exiting due to channel error.
@@ -315,10 +303,9 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1706099498100	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-roxyType":"manual","httpProxy":"127.0.0.1:62927","sslProxy":"127.0.0.1:62927"}
-DevTools listening on ws://127.0.0.1:62929/devtools/browser/39853e89-514a-49c3-8b7b-e4bb3b4eaad7
-console.error: ({})
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1706198277214	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+or: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
 console.warn: "Failed to enumerate CacheStorage for host http://localhost:8000: TypeError: caches is null"
 1705753927575	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.warn: "Failed to enumerate CacheStorage for host http://localhost:8000: TypeError: caches is null"
