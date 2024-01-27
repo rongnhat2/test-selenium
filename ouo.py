@@ -25,7 +25,7 @@ for x in range(4):
 	print("Clicking Button")
 	time.sleep(3)
 	driver.execute_script("var parent = document.querySelector('#captcha'); parent.querySelector('button').click()")
-	time.sleep(10) 
+	time.sleep(5) 
 	print("running button 2")
 	time.sleep(3)
 	driver.execute_script("var parent = document.querySelector('#form-go'); parent.querySelector('button').click()")
