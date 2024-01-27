@@ -12,7 +12,7 @@ for x in range(4):
 	print(response.text)
 
 	firefox_options = Options()
-	firefox_options.set_preference("browser.privatebrowsing.autostart", True)
+	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
 	firefox_options.add_argument("--headless")
 
