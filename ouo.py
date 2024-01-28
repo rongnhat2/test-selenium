@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from seleniumwire import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.by import By
 import requests
 
 
@@ -22,21 +23,22 @@ for x in range(3):
 	driver = webdriver.Firefox(options=firefox_options)
 
 	driver.set_window_size(1920, 1080)
-	driver.get('https://ouo.io/s5CMQU')
-	
-	print("* Loaded       *")
-	time.sleep(3) 
-	print("* Run Button 1 *")
-	time.sleep(120)
-	driver.execute_script("document.getElementsByTagName('button')[0].click()")
-	print("* Done btn 1   *")
-	time.sleep(3) 
-	print("* Run Button 2 *")
-	time.sleep(3)
-	driver.execute_script("document.getElementsByTagName('button')[0].click()")
-	time.sleep(3)
-	print("* Done btn 2   *")
-	print("----------------")
-	print("  ")
+	driver.get(response.text)
+	cloudflale = driver.find_elements(By.XPATH, '//iframe')
+	print(len(cloudflale))
+	# print("* Loaded       *")
+	# time.sleep(3) 
+	# print("* Run Button 1 *")
+	# time.sleep(3)
+	# driver.execute_script("document.getElementsByTagName('button')[0].click()")
+	# print("* Done btn 1   *")
+	# time.sleep(3) 
+	# print("* Run Button 2 *")
+	# time.sleep(3)
+	# driver.execute_script("document.getElementsByTagName('button')[0].click()")
+	# time.sleep(3)
+	# print("* Done btn 2   *")
+	# print("----------------")
+	# print("  ")
 	time.sleep(2)
 	driver.quit() 
