@@ -643,6 +643,11 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 ://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -662,15 +667,7 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-data-processors/resources.js:19:21
-addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
-_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
-receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
-Line: 711, column: 0
-console.error: ({})
-JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 711: Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'
-JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 711: Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'
-JavaScript error: resource://devtools/client/framework/devtools.js, line 880: TypeError: inspector is undefined
+t error: resource://devtools/client/framework/devtools.js, line 880: TypeError: inspector is undefined
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.press."
 console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal6442450986/windowGlobalTarget2"
 console.warn: "Listener for event 'frame' did not return a promise."
@@ -3862,3 +3859,165 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.error: ({})
 1706450279519	Marionette	INFO	Stopped listening on port 62996
 Dynamically enable window occlusion 1
+1706451234904	geckodriver	INFO	Listening on 127.0.0.1:63922
+1706451237950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofile7dH2BW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706451238236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706451238339	Marionette	INFO	Listening on port 63935
+WebDriver BiDi listening on ws://127.0.0.1:63923
+Read port: 63935
+1706451238475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706451238501	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63921","sslProxy":"127.0.0.1:63921"}
+DevTools listening on ws://127.0.0.1:63923/devtools/browser/e153d01e-5f84-44e8-b9e0-59f7889a0fd3
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9d6f8cdb66e64, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451269995	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0);'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 711"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:711:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:558:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:460:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:424:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2197:33
+addAllSources@resource://devtools/server/actors/thread.js:1518:14
+watch@resource://devtools/server/actors/resources/sources.js:81:17
+watchResources@resource://devtools/server/actors/resources/index.js:324:19
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
+Line: 711, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 711: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0);'
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451320674	Marionette	INFO	Stopped listening on port 63935
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451331790	geckodriver	INFO	Listening on 127.0.0.1:64106
+1706451334863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileVcN6rT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706451335128	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706451335198	Marionette	INFO	Listening on port 64126
+WebDriver BiDi listening on ws://127.0.0.1:64107
+Read port: 64126
+1706451335349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706451335377	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64104","sslProxy":"127.0.0.1:64104"}
+DevTools listening on ws://127.0.0.1:64107/devtools/browser/174468e7-1126-4249-b55f-f4caa9e4e747
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9d9545cec515c, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451363712	Marionette	INFO	Stopped listening on port 64126
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451374819	geckodriver	INFO	Listening on 127.0.0.1:64208
+1706451377884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileu8HMiY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706451378147	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706451378212	Marionette	INFO	Listening on port 64217
+WebDriver BiDi listening on ws://127.0.0.1:64209
+Read port: 64217
+1706451378365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706451378391	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64207","sslProxy":"127.0.0.1:64207"}
+DevTools listening on ws://127.0.0.1:64209/devtools/browser/f47e70b6-859c-4760-b55f-0d000137a6b4
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9da5ffd990958, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451408752	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451414515	Marionette	INFO	Stopped listening on port 64217
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/focus-experiments getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1706451425087	geckodriver	INFO	Listening on 127.0.0.1:64304
+1706451428125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileb9fgXb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706451428385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706451428453	Marionette	INFO	Listening on port 64312
+WebDriver BiDi listening on ws://127.0.0.1:64305
+Read port: 64312
+1706451428606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706451428638	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64303","sslProxy":"127.0.0.1:64303"}
+DevTools listening on ws://127.0.0.1:64305/devtools/browser/711bdd34-55fe-429f-af06-cb9fd5795306
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9db9a4fc47155, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451458451	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451475531	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451476389	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451496620	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 102: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1706451497389	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9dd2c38466e55, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://taxissunroom.com/1clkn/16562, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://taxissunroom.com/1clkn/16562, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://tag.escalated.io/?i=KxxajmhPPCsT&d=ouo.press&type=display&cust=7419&sid=ouo.io&c=&cust2=referral, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://jsc.adskeeper.co.uk/o/u/ouo.press.911109.es6.js, line 274: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451538532	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1706451539293	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1706451540231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451592398	Marionette	INFO	Stopped listening on port 64312
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451615993	geckodriver	INFO	Listening on 127.0.0.1:64757
+1706451619013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--headless" " ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileWcz154"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706451619272	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706451619332	Marionette	INFO	Listening on port 64767
+WebDriver BiDi listening on ws://127.0.0.1:64758
+Read port: 64767
+1706451619471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706451619498	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64755","sslProxy":"127.0.0.1:64755"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64758/devtools/browser/1cb60ebb-eba9-4271-88f5-ff442f821f04
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9e0429f7604f7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706451649309	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1706451706135	Marionette	INFO	Stopped listening on port 64767
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down

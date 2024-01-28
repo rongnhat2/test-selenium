@@ -3,6 +3,7 @@ from selenium import webdriver
 from seleniumwire import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 import mouse
 import requests
 
@@ -19,7 +20,7 @@ for x in range(3):
 	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
 	firefox_options.add_argument("-private")
-	firefox_options.add_argument("--headless")
+	# firefox_options.add_argument("--headless")
 
 	driver = webdriver.Firefox(options=firefox_options)
 
@@ -29,13 +30,17 @@ for x in range(3):
 	time.sleep(10) 
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	
-	time.sleep(600) 
-	# while len(cloudflale) == 1:
-	# 	time.sleep(10) 
-	# 	mouse.move(600, 290, duration = 1.0)
-	# 	mouse.click('left')
-	# 	print("* Bypassed *")
-	# 	time.sleep(10) 
+	# time.sleep(600) 
+	while len(cloudflale) == 1:
+		time.sleep(10) 
+		action = ActionChains(driver)
+		action.move_by_offset(550, 380)
+		action.click()
+		action.perform()
+		# mouse.move(550, 380, duration = 1.0)
+		# mouse.click('left')
+		print("* Bypassed *")
+		time.sleep(10) 
 		
 	time.sleep(3) 
 	print("* Run Button 1 *")
