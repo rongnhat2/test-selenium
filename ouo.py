@@ -14,7 +14,7 @@ for x in range(4):
 	firefox_options = Options()
 	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
-	firefox_options.add_argument("--headless")
+	# firefox_options.add_argument("--headless")
 
 	driver = webdriver.Firefox(options=firefox_options)
 
@@ -24,7 +24,7 @@ for x in range(4):
 	time.sleep(5) 
 	print("Clicking Button")
 	time.sleep(5)
-	driver.execute_script("var parent = document.querySelector('#captcha'); parent.querySelector('button').click()")
+	driver.execute_script("var parent = document.querySelector('#form-captcha'); parent.querySelector('button').click()")
 	time.sleep(5) 
 	print("running button 2")
 	time.sleep(5)
