@@ -22,7 +22,7 @@ for x in range(4):
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
 	print("finished")
-	time.sleep(60) 
+	time.sleep(30) 
 	print("Clicking Button")
 	time.sleep(3)
 	driver.execute_script("document.getElementsByTagName('button')[0].click()")
