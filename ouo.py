@@ -3,6 +3,7 @@ from selenium import webdriver
 from seleniumwire import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
+import mouse
 import requests
 
 
@@ -24,6 +25,16 @@ for x in range(3):
 
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
+	time.sleep(10) 
+	cloudflale = driver.find_elements(By.XPATH, '//iframe')
+	print(len(cloudflale))
+	
+	if len(cloudflale) == 1:
+		mouse.move(600, 290, duration = 1.0)
+		mouse.click('left')
+		print("* Bypassed *")
+		time.sleep(30) 
+		
 	time.sleep(3) 
 	print("* Run Button 1 *")
 	time.sleep(3)
