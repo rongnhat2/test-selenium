@@ -32,7 +32,8 @@ for x in range(3):
 	
 	# time.sleep(600) 
 	if len(cloudflale) == 1:
-		time.sleep(10) 
+		print("* Cloudflare  block *")
+		time.sleep(20) 
 		action = ActionChains(driver)
 		action.move_by_offset(550, 380)
 		action.click()
@@ -41,7 +42,7 @@ for x in range(3):
 		# mouse.click('left')
 		print("* Bypassed *")
 		driver.get(response.text)
-		print("* reload *")
+		print("* Reload *")
 		time.sleep(10) 
 		
 	time.sleep(3) 
