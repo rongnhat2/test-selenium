@@ -24,6 +24,7 @@ for x in range(4):
 	time.sleep(5) 
 	print("Clicking Button")
 	time.sleep(5)
+	driver.execute_script("document.getElementsByTagName('button')")
 	driver.execute_script("document.getElementsByTagName('button')[0].click()")
 	time.sleep(5) 
 	print("running button 2")
