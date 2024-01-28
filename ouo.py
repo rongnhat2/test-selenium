@@ -25,6 +25,7 @@ for x in range(3):
 
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
+	print("* Loaded *")
 	time.sleep(10) 
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	print(len(cloudflale))
