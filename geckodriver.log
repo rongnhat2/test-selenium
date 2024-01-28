@@ -633,6 +633,11 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 ://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -652,14 +657,7 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-urces/index.js:324:19
-addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
-addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
-_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
-receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
-Line: 711, column: 0
-console.error: ({})
-SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 711"  data: yes]
+tils.js :: mainThreadFetch/< :: line 711"  data: yes]
 Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:711:15
 mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:558:10
 _fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:460:22
@@ -1171,7 +1169,8 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:53756/devtools/browser/6a377c68-19ef-4815-8667-89a83838decf
 console.error: ({})
 1706444739604	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-e" "--marionette" "start-maximized" "--headless" "--remote-de ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofile32F0ez"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+remote-de ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofile32F0ez"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -3561,4 +3560,224 @@ JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_
 JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1706446902150	Marionette	INFO	Stopped listening on port 63260
+Dynamically enable window occlusion 1
+1706447718378	geckodriver	INFO	Listening on 127.0.0.1:64397
+1706447732238	geckodriver	INFO	Listening on 127.0.0.1:64418
+1706447735287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilew0PFuL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706447735556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706447735623	Marionette	INFO	Listening on port 64426
+WebDriver BiDi listening on ws://127.0.0.1:64419
+Read port: 64426
+1706447735764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706447735793	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64417","sslProxy":"127.0.0.1:64417"}
+DevTools listening on ws://127.0.0.1:64419/devtools/browser/16fdeae0-cd70-46da-b3db-eeb0f5624046
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1706447745941	geckodriver	INFO	Listening on 127.0.0.1:64528
+1706447749024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileE5UJb0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706447749284	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706447749395	Marionette	INFO	Listening on port 64536
+WebDriver BiDi listening on ws://127.0.0.1:64529
+Read port: 64536
+1706447749542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706447749568	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64527","sslProxy":"127.0.0.1:64527"}
+DevTools listening on ws://127.0.0.1:64529/devtools/browser/cb50f214-58db-4999-af6d-444d701d72ab
+JavaScript error: https://ouo.io/RxwkVY, line 20: ReferenceError: AdscoreInit is not defined
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706447779387	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1706447784699	geckodriver	INFO	Listening on 127.0.0.1:64662
+1706447787773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileuZzFQW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706447788032	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706447788100	Marionette	INFO	Listening on port 64679
+WebDriver BiDi listening on ws://127.0.0.1:64663
+Read port: 64679
+1706447788250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706447788275	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64661","sslProxy":"127.0.0.1:64661"}
+DevTools listening on ws://127.0.0.1:64663/devtools/browser/28a2858d-480e-49f8-8b3c-0a335a9000ef
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706447795817	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706447818099	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.io."
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.io."
+console.error: ({})
+1706447856351	Marionette	INFO	Stopped listening on port 64679
+Dynamically enable window occlusion 1
+1706447859776	geckodriver	INFO	Listening on 127.0.0.1:50284
+1706447862850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileB2zEtZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706447863138	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706447863208	Marionette	INFO	Listening on port 50292
+WebDriver BiDi listening on ws://127.0.0.1:50285
+Read port: 50292
+1706448013444	geckodriver	INFO	Listening on 127.0.0.1:50594
+1706448016502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilezd7XHw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448016810	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448016884	Marionette	INFO	Listening on port 50612
+WebDriver BiDi listening on ws://127.0.0.1:50595
+Read port: 50612
+1706448017050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448017075	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:50593","sslProxy":"127.0.0.1:50593"}
+DevTools listening on ws://127.0.0.1:50595/devtools/browser/e3caa7e8-2f42-4aec-948e-f43bbd2331ae
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1706448030611	geckodriver	INFO	Listening on 127.0.0.1:50711
+1706448033670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileO4twuf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448033975	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448034054	Marionette	INFO	Listening on port 50723
+WebDriver BiDi listening on ws://127.0.0.1:50712
+Read port: 50723
+1706448034213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448034240	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:50710","sslProxy":"127.0.0.1:50710"}
+DevTools listening on ws://127.0.0.1:50712/devtools/browser/13c8bbd2-cac5-4726-ac5a-d2daf94dae2c
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.io."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:42
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+
+1706448060209	Marionette	INFO	Stopped listening on port 50723
+Dynamically enable window occlusion 1
+1706448282409	geckodriver	INFO	Listening on 127.0.0.1:51207
+1706448285473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilepbkWyg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448285749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448285820	Marionette	INFO	Listening on port 51217
+WebDriver BiDi listening on ws://127.0.0.1:51208
+Read port: 51217
+1706448285986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448286012	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:51206","sslProxy":"127.0.0.1:51206"}
+DevTools listening on ws://127.0.0.1:51208/devtools/browser/1db6d8a8-e4b6-41c8-ae30-f0124ea3348e
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+1706448302066	geckodriver	INFO	Listening on 127.0.0.1:51312
+1706448305145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "51313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilei7geYj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448305421	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448305485	Marionette	INFO	Listening on port 51321
+WebDriver BiDi listening on ws://127.0.0.1:51313
+Read port: 51321
+1706448305638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448305664	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:51311","sslProxy":"127.0.0.1:51311"}
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:51313/devtools/browser/27dfb1e8-e611-40de-9d54-be1247c10157
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706448311845	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeCh[GFX1-]: [CompositoGFrBridgeChild receivesX1- IPC close with reason=AbnormalShutdown]: Compo
+sitorBridgeChild receives IPC close with reason=AbnormalShutdown
+ild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1706448316036	geckodriver	INFO	Listening on 127.0.0.1:49769
+1706448319098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "49770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileZ8CAIG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448319369	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448319432	Marionette	INFO	Listening on port 49781
+WebDriver BiDi listening on ws://127.0.0.1:49770
+Read port: 49781
+1706448319588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448319614	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:49768","sslProxy":"127.0.0.1:49768"}
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:49770/devtools/browser/8633104b-a162-4574-912c-5d4ac5a5238f
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706448326126	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[G[GFXFX1-]: Compos1[GitFX1-]:o[ CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+-GFX1-]: CompositorBridgeChild receives IPC close wi]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+rBridgeChild receives IPC close with reason=AbnormalShutdown
+th reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1706448329721	geckodriver	INFO	Listening on 127.0.0.1:49951
+1706448332798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "49952" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileNWJ2Zr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448333117	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448333180	Marionette	INFO	Listening on port 49959
+WebDriver BiDi listening on ws://127.0.0.1:49952
+Read port: 49959
+1706448333331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448333355	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:49950","sslProxy":"127.0.0.1:49950"}
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:49952/devtools/browser/394d7265-f370-4c3f-b662-22778735001b
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+1706448521353	geckodriver	INFO	Listening on 127.0.0.1:50201
+1706448524409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "50202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileVm1k61"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706448524670	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706448524733	Marionette	INFO	Listening on port 50209
+WebDriver BiDi listening on ws://127.0.0.1:50202
+Read port: 50209
+1706448524885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706448524916	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:50200","sslProxy":"127.0.0.1:50200"}
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:50202/devtools/browser/df4c6296-ca3f-4e32-ae89-4d220723119d
+JavaScript warning: https://taxissunroom.com/1clkn/16562, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://taxissunroom.com/1clkn/16562, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706448532176	Marionette	INFO	Stopped listening on port 50209
 Dynamically enable window occlusion 1

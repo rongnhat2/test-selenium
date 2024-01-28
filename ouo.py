@@ -16,9 +16,9 @@ for x in range(3):
 
 	firefox_options = Options()
 	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
-	firefox_options.add_argument("start-maximized")
+	# firefox_options.add_argument("start-maximized")
 	firefox_options.add_argument("-private")
-	firefox_options.add_argument("--headless")
+	# firefox_options.add_argument("--headless")
 
 	driver = webdriver.Firefox(options=firefox_options)
 
@@ -28,25 +28,31 @@ for x in range(3):
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	print(len(cloudflale))
 	html = driver.page_source
-	f = open("projectssource.txt", "a", encoding="utf-8")
-	f.write(str(html))
+	# f = open("projectssource.txt", "a", encoding="utf-8")
+	# f.write(str(html))
 	if len(cloudflale) == 1:
-		driver.execute_script("document.getElementsByTagName('iframe')[0].click()")
-		time.sleep(180) 
-	else:
 		print("* Loaded       *")
-		time.sleep(3) 
-		print("* Run Button 1 *")
-		time.sleep(3)
-		driver.execute_script("document.getElementsByTagName('button')[0].click()")
-		print("* Done btn 1   *")
-		time.sleep(3) 
-		print("* Run Button 2 *")
-		time.sleep(3)
-		driver.execute_script("document.getElementsByTagName('button')[0].click()")
-		time.sleep(3)
-		print("* Done btn 2   *")
-		print("----------------")
-		print("  ")
-		time.sleep(2)
-		driver.quit() 
+		print("* Bypassing    *")
+		time.sleep(20) 
+		driver.execute_script("document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('input')[0].click()")
+		print("* Bypassed     *")
+		time.sleep(10) 
+		
+		
+
+
+	time.sleep(3) 
+	print("* Run Button 1 *")
+	time.sleep(3)
+	driver.execute_script("document.getElementsByTagName('button')[0].click()")
+	print("* Done btn 1   *")
+	time.sleep(3) 
+	print("* Run Button 2 *")
+	time.sleep(3)
+	driver.execute_script("document.getElementsByTagName('button')[0].click()")
+	time.sleep(3)
+	print("* Done btn 2   *")
+	print("----------------")
+	print("  ")
+	time.sleep(2)
+	driver.quit() 
