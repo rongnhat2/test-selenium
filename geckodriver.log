@@ -626,6 +626,10 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 ://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -645,11 +649,7 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
--addons.xml' is not a valid URL.
-1706440390601	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://global/content/neterror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 711"  data: yes]
-Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:711:15
-mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:558:10
+s:558:10
 _fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:460:22
 urlContents@resource://devtools/server/actors/utils/sources-manager.js:424:17
 _resurrectSource@resource://devtools/server/actors/thread.js:2197:33
@@ -1244,4 +1244,2163 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:54256/devtools/browser/d380e620-f211-4de8-80eb-9f8e7f127006
 1706444886474	Marionette	INFO	Stopped listening on port 54264
 console.error: ({})
+Dynamically enable window occlusion 1
+1706445141351	geckodriver	INFO	Listening on 127.0.0.1:54627
+1706445144426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofiley1Fu8l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445144696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445144770	Marionette	INFO	Listening on port 54641
+WebDriver BiDi listening on ws://127.0.0.1:54628
+Read port: 54641
+1706445144926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445144952	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54626","sslProxy":"127.0.0.1:54626"}
+DevTools listening on ws://127.0.0.1:54628/devtools/browser/19d9698d-9839-4590-bc57-50e8576ed991
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c942338d8520f3, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934593/customhighlighter47, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_hideOrphanedHighlighters/<@resource://devtools/client/inspector/shared/highlighters-overlay.js:1844:23\n_hideHighlighterIfDeadNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:1568:15\n_hideOrphanedHighlighters@resource://devtools/client/inspector/shared/highlighters-overlay.js:1843:14\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+EventListener.handleEvent*Nc@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:177
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:391
+ba.Ok@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:469:80
+ba.Pk@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:516:153
+ba.Qm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:501:6
+ba.Pm/</<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:118
+Kj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:267:72
+Xj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:269:350
+ba.Pm/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:104
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:370:169
+os@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:371:269
+ba.Pm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:90
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:517:842
+em@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:290:298
+dm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:293:95
+dm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:291:207
+config@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:412:45
+ey@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:424:472
+gy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:426:43
+setTimeout handler*H@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:370
+iy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:429:412
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:574:331
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:292
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:298
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:579:3
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1706445168633	Marionette	INFO	Stopped listening on port 54641
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1706445176932	geckodriver	INFO	Listening on 127.0.0.1:54767
+1706445179990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileYtObMM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445180299	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445180366	Marionette	INFO	Listening on port 54775
+WebDriver BiDi listening on ws://127.0.0.1:54768
+Read port: 54775
+1706445180515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445180540	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54766","sslProxy":"127.0.0.1:54766"}
+DevTools listening on ws://127.0.0.1:54768/devtools/browser/98d90164-234d-4a27-964c-b6735eda2093
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:42
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+
+1706445191417	Marionette	INFO	Stopped listening on port 54775
+Dynamically enable window occlusion 1
+1706445219883	geckodriver	INFO	Listening on 127.0.0.1:54921
+1706445222965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileHmKMsu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445223214	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445223280	Marionette	INFO	Listening on port 54931
+WebDriver BiDi listening on ws://127.0.0.1:54922
+Read port: 54931
+1706445223429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445223454	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54920","sslProxy":"127.0.0.1:54920"}
+DevTools listening on ws://127.0.0.1:54922/devtools/browser/fb8ec628-ee6a-441e-8d58-afc17800c431
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c9441e4ec70501, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+1706445254276	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1706445378741	Marionette	INFO	Stopped listening on port 54931
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1706445382095	geckodriver	INFO	Listening on 127.0.0.1:55414
+1706445385154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileyDBKTf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445385430	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445385500	Marionette	INFO	Listening on port 55422
+WebDriver BiDi listening on ws://127.0.0.1:55415
+Read port: 55422
+1706445385668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445385699	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55413","sslProxy":"127.0.0.1:55413"}
+DevTools listening on ws://127.0.0.1:55415/devtools/browser/8dbb6c1d-d481-4498-a317-aa29bb8096ff
+console.error: ({})
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c94814fa6e04b8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 98: Error: Line numbers must be >= 1
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+1706445415469	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+prepareEvaluationResult@resource://devtools/server/actors/webconsole.js:1111:29
+evaluateJS/</<@resource://devtools/server/actors/webconsole.js:965:31
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal10737418241/pagestyle20, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1614:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:871:24\nlater@resource://devtools/shared/throttle.js:33:19\nnotify@resource://gre/modules/Timer.sys.mjs:49:17\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:696:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:744:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:616:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:89:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:186:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:284:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:696:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:349:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 89, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 89))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1706445487424	Marionette	INFO	Stopped listening on port 55422
+Dynamically enable window occlusion 1
+1706445494070	geckodriver	INFO	Listening on 127.0.0.1:55701
+1706445497133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilejJFgdp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445497388	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445497453	Marionette	INFO	Listening on port 55709
+WebDriver BiDi listening on ws://127.0.0.1:55702
+Read port: 55709
+1706445497603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445497628	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55700","sslProxy":"127.0.0.1:55700"}
+DevTools listening on ws://127.0.0.1:55702/devtools/browser/b7d0c5c8-81a6-4a9f-b73e-a16f058e9984
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c94acf993d0439, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal8589934597/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+1706445527484	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c94de7c8940439, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal10737418245/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal10737418245/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal10737418245/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+JavaScript error: resource://devtools/client/shared/worker-utils.js, line 98: Error: Line numbers must be >= 1
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:195' would run
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:42
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+EventListener.handleEvent*Nc@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:177
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:391
+ba.Ok@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:469:80
+ba.Pk@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:516:153
+ba.Qm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:501:6
+ba.Pm/</<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:118
+Kj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:267:72
+Xj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:269:350
+ba.Pm/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:104
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:370:169
+os@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:371:269
+ba.Pm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:90
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:517:842
+em@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:290:298
+dm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:293:95
+dm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:291:207
+config@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:412:45
+ey@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:424:472
+gy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:426:43
+setTimeout handler*H@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:370
+iy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:429:412
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:574:331
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:292
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:298
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:579:3
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1706445769861	Marionette	INFO	Stopped listening on port 55709
+Dynamically enable window occlusion 1
+1706445811651	geckodriver	INFO	Listening on 127.0.0.1:56260
+1706445814718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileVjuEqR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445815001	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445815071	Marionette	INFO	Listening on port 56299
+WebDriver BiDi listening on ws://127.0.0.1:56261
+Read port: 56299
+1706445815231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445815256	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:56259","sslProxy":"127.0.0.1:56259"}
+DevTools listening on ws://127.0.0.1:56261/devtools/browser/28521b1f-b6e3-4275-80df-84b69c170cfc
+JavaScript error: https://ouo.io/E1pVHn, line 20: ReferenceError: AdscoreInit is not defined
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706445822411	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 127: Script terminated by timeout at:
+Ra@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:127:437
+dk@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:270:258
+Xl@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:288:613
+wG/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:518:178
+ba.Ok/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:469:126
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:420
+
+1706445825072	Marionette	INFO	Stopped listening on port 56299
+Dynamically enable window occlusion 1
+1706445894235	geckodriver	INFO	Listening on 127.0.0.1:54535
+1706445897304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofiledDseKA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706445897570	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706445897640	Marionette	INFO	Listening on port 54543
+WebDriver BiDi listening on ws://127.0.0.1:54536
+Read port: 54543
+1706445897793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706445897828	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:54534","sslProxy":"127.0.0.1:54534"}
+DevTools listening on ws://127.0.0.1:54536/devtools/browser/efcb4acb-249c-41d7-83da-a56793f3b3dd
+console.error: ({})
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=84c954941f225dce, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal8589934599/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+1706445927594	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+ObjectActor.prototype._populateGripPreview previewer function threw an exception: SecurityError: Permission denied to get property "href" on cross-origin object
+Stack: ObjectWithURL@resource://devtools/server/actors/object/previewers.js:905:7
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+GenericObject@resource://devtools/server/actors/object/previewers.js:788:40
+Object@resource://devtools/server/actors/object/previewers.js:1130:12
+_populateGripPreview@resource://devtools/server/actors/object.js:286:42
+form@resource://devtools/server/actors/object.js:220:10
+objectGrip@resource://devtools/server/actors/webconsole.js:440:18
+createValueGrip@resource://devtools/server/actors/object/utils.js:178:14
+createValueGrip@resource://devtools/server/actors/webconsole.js:387:12
+createValueGrip@resource://devtools/server/actors/webconsole.js:434:36
+_findSafeGetterValues@resource://devtools/server/actors/object.js:482:35
+enumObjectProperties@resource://devtools/server/actors/object/property-iterator.js:208:40
+PropertyIteratorActor@resource://devtools/server/actors/object/property-iterator.js:90:25
+enumProperties@resource://devtools/server/actors/object.js:328:12
+handler@resource://devtools/shared/protocol/Actor.js:198:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+_onPacketReceived@resource://devtools/shared/transport/js-window-actor-transport.js:53:18
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:460:21
+Line: 905, column: 0
+console.error: ({})
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1706446033860	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal17179869188/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://widgets.outbrain.com/outbrain.js:334' would run
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+EventListener.handleEvent*Nc@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:177
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:391
+ba.Ok@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:469:80
+ba.Pk@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:516:153
+ba.Qm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:501:6
+ba.Pm/</<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:118
+Kj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:267:72
+Xj@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:269:350
+ba.Pm/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:104
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:370:169
+os@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:371:269
+ba.Pm@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:499:90
+c@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:517:842
+em@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:290:298
+dm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:293:95
+dm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:291:207
+config@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:412:45
+ey@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:424:472
+gy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:426:43
+setTimeout handler*H@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:144:370
+iy@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:429:412
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:574:331
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:292
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:571:298
+@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:579:3
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1706446040344	Marionette	INFO	Stopped listening on port 54543
+Dynamically enable window occlusion 1
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1706446084324	geckodriver	INFO	Listening on 127.0.0.1:63742
+1706446087365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileHXkd27"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706446087706	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706446087790	Marionette	INFO	Listening on port 63751
+WebDriver BiDi listening on ws://127.0.0.1:63743
+Read port: 63751
+1706446087970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706446087996	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63741","sslProxy":"127.0.0.1:63741"}
+DevTools listening on ws://127.0.0.1:63743/devtools/browser/10bb7b9b-0fb4-4efd-9abb-a8331660a954
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1706446105333	geckodriver	INFO	Listening on 127.0.0.1:63890
+1706446108390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofilegOg9TN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706446108679	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706446108756	Marionette	INFO	Listening on port 63902
+WebDriver BiDi listening on ws://127.0.0.1:63891
+Read port: 63902
+1706446108925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706446108950	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:63889","sslProxy":"127.0.0.1:63889"}
+DevTools listening on ws://127.0.0.1:63891/devtools/browser/9c352e47-7bed-4de0-96a5-ede388af1be7
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ouo.io/Khq7caq, line 20: TypeError: document[(c(...) + c(...))](...) is null
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706446119976	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js, line 575: Script terminated by timeout at:
+$R@https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:575:164
+b<@https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:512:292
+r<@https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:127:234
+V<@https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:310:235
+@https://www.gstatic.com/recaptcha/releases/QUpyTKFkX5CIV6EF8TFSWEif/recaptcha__vi.js:989:319
+
+1706446120856	Marionette	INFO	Stopped listening on port 63902
+Dynamically enable window occlusion 1
+1706446123625	geckodriver	INFO	Listening on 127.0.0.1:64031
+1706446126675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileMejT9O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706446126944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706446127015	Marionette	INFO	Listening on port 64039
+WebDriver BiDi listening on ws://127.0.0.1:64032
+Read port: 64039
+1706446127177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706446127202	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64030","sslProxy":"127.0.0.1:64030"}
+DevTools listening on ws://127.0.0.1:64032/devtools/browser/20654875-82c0-48f1-b3b5-65e7f2b190db
+JavaScript error: https://ouo.io/lu8uBZ, line 20: ReferenceError: AdscoreInit is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+
+1706446134069	Marionette	INFO	Stopped listening on port 64039
+Dynamically enable window occlusion 1
+1706446155226	geckodriver	INFO	Listening on 127.0.0.1:64121
+1706446158289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-private" "--remote-debu ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofile81JDC1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706446158562	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706446158634	Marionette	INFO	Listening on port 64139
+WebDriver BiDi listening on ws://127.0.0.1:64122
+Read port: 64139
+1706446158787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1706446158812	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:64120","sslProxy":"127.0.0.1:64120"}
+DevTools listening on ws://127.0.0.1:64122/devtools/browser/a48442ba-77d0-48ee-87d3-576fedd4b49f
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cuplikenominee.com/1clkn/13128, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706446166519	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS, line 470: Script terminated by timeout at:
+ba.wh@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:87
+ba.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-2E2Q0WVYTS:468:412
+
+1706446168406	Marionette	INFO	Stopped listening on port 64139
 Dynamically enable window occlusion 1

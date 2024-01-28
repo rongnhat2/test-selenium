@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 import requests
 
 
-for x in range(1):
+for x in range(3):
 	url = "https://launch.rhass.vn/api/get?status=2"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
@@ -17,12 +17,13 @@ for x in range(1):
 	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
 	firefox_options.add_argument("-private")
-	firefox_options.add_argument("--headless")
+	# firefox_options.add_argument("--headless")
 
 	driver = webdriver.Firefox(options=firefox_options)
 
 	driver.set_window_size(1920, 1080)
-	driver.get(response.text)
+	driver.get('https://ouo.io/s5CMQU')
+	
 	print("* Loaded       *")
 	time.sleep(3) 
 	print("* Run Button 1 *")
