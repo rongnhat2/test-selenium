@@ -27,6 +27,9 @@ for x in range(3):
 	time.sleep(10) 
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	print(len(cloudflale))
+	html = driver.page_source
+	f = open("projectssource.txt", "a", encoding="utf-8")
+	f.write(str(html))
 	if len(cloudflale) <= 1:
 		time.sleep(300) 
 	else:
