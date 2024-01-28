@@ -6,7 +6,7 @@ import requests
 
 
 for x in range(4):
-	url = "https://launch.rhass.vn/api/get?status=1"
+	url = "https://launch.rhass.vn/api/get?status=2"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
 	print("Loading page")
