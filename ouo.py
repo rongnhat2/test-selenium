@@ -30,8 +30,10 @@ for x in range(3):
 	html = driver.page_source
 	f = open("projectssource.txt", "a", encoding="utf-8")
 	f.write(str(html))
-	if len(cloudflale) <= 1:
-		time.sleep(300) 
+	if len(cloudflale) == 1:
+		driver.execute_script("var script = document.createElement('script');script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js';document.getElementsByTagName('head')[0].appendChild(script);")
+		driver.execute_script("$('iframe')[0].click()")
+		time.sleep(180) 
 	else:
 		print("* Loaded       *")
 		time.sleep(3) 
