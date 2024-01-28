@@ -22,7 +22,7 @@ for x in range(4):
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
 	print("finished")
-	time.sleep(30) 
+	time.sleep(10) 
 	print("Clicking Button")
 	time.sleep(5)
 	print(driver.execute_script("document.querySelectorAll('html')"))
