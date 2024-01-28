@@ -14,7 +14,7 @@ for x in range(4):
 	firefox_options = Options()
 	# firefox_options.set_preference("browser.privatebrowsing.autostart", True)
 	firefox_options.add_argument("start-maximized")
-	# firefox_options.add_argument("--headless")
+	firefox_options.add_argument("--headless")
 
 	driver = webdriver.Firefox(options=firefox_options)
 
