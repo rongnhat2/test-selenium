@@ -32,6 +32,8 @@ for x in range(3):
 	f.write(str(html))
 	if len(cloudflale) == 1:
 		driver.execute_script("var script = document.createElement('script');script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js';document.getElementsByTagName('head')[0].appendChild(script);")
+		
+		time.sleep(5) 
 		driver.execute_script("$('iframe')[0].click()")
 		time.sleep(180) 
 	else:
