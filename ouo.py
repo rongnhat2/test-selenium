@@ -9,6 +9,7 @@ for x in range(4):
 	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
+	print("Loading page")
 	print(response.text)
 
 	firefox_options = Options()
@@ -19,15 +20,11 @@ for x in range(4):
 	driver = webdriver.Firefox(options=firefox_options)
 
 	driver.set_window_size(1920, 1080)
-	print("Loading page")
 	driver.get(response.text)
 	print("finished")
-	time.sleep(3) 
+	time.sleep(60) 
 	print("Clicking Button")
-	time.sleep(5)
-	print(driver.execute_script("document.querySelectorAll('html')"))
-	print(driver.execute_script("document.documentElement.innerHTML"))
-	time.sleep(15)
+	time.sleep(3)
 	driver.execute_script("document.getElementsByTagName('button')[0].click()")
 	print("Clicking successful")
 	time.sleep(3) 
