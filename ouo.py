@@ -24,23 +24,6 @@ for x in range(3):
 
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
-	time.sleep(10) 
-	cloudflale = driver.find_elements(By.XPATH, '//iframe')
-	print(len(cloudflale))
-	html = driver.page_source
-	# f = open("projectssource.txt", "a", encoding="utf-8")
-	# f.write(str(html))
-	if len(cloudflale) == 1:
-		print("* Loaded       *")
-		print("* Bypassing    *")
-		time.sleep(20) 
-		driver.execute_script("document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('input')[0].click()")
-		print("* Bypassed     *")
-		time.sleep(10) 
-		
-		
-
-
 	time.sleep(3) 
 	print("* Run Button 1 *")
 	time.sleep(3)
