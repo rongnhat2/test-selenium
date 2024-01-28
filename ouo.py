@@ -28,14 +28,13 @@ for x in range(3):
 	print("* Loaded *")
 	time.sleep(10) 
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
-	print(len(cloudflale))
 	
-	while len(cloudflale) == 1:
-		time.sleep(10) 
-		mouse.move(600, 290, duration = 1.0)
-		mouse.click('left')
-		print("* Bypassed *")
-		time.sleep(30) 
+	# while len(cloudflale) == 1:
+	# 	time.sleep(10) 
+	# 	mouse.move(600, 290, duration = 1.0)
+	# 	mouse.click('left')
+	# 	print("* Bypassed *")
+	# 	time.sleep(10) 
 		
 	time.sleep(3) 
 	print("* Run Button 1 *")
