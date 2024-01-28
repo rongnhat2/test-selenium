@@ -30,7 +30,8 @@ for x in range(3):
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	print(len(cloudflale))
 	
-	if len(cloudflale) == 1:
+	while len(cloudflale) == 1:
+		time.sleep(10) 
 		mouse.move(600, 290, duration = 1.0)
 		mouse.click('left')
 		print("* Bypassed *")
