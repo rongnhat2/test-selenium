@@ -26,6 +26,7 @@ for x in range(4):
 	print("Clicking Button")
 	time.sleep(5)
 	print(driver.execute_script("document.querySelectorAll('html')"))
+	print(driver.execute_script("document.documentElement.innerHTML"))
 	time.sleep(15)
 	driver.execute_script("document.getElementsByTagName('button')[0].click()")
 	print("Clicking successful")
