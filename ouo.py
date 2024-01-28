@@ -27,7 +27,7 @@ for x in range(3):
 	print("* Loaded       *")
 	time.sleep(3) 
 	print("* Run Button 1 *")
-	time.sleep(3)
+	time.sleep(120)
 	driver.execute_script("document.getElementsByTagName('button')[0].click()")
 	print("* Done btn 1   *")
 	time.sleep(3) 
