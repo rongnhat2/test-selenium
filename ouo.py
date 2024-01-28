@@ -31,7 +31,7 @@ for x in range(3):
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	
 	# time.sleep(600) 
-	while len(cloudflale) == 1:
+	if len(cloudflale) == 1:
 		time.sleep(10) 
 		action = ActionChains(driver)
 		action.move_by_offset(550, 380)
@@ -40,6 +40,8 @@ for x in range(3):
 		# mouse.move(550, 380, duration = 1.0)
 		# mouse.click('left')
 		print("* Bypassed *")
+		driver.get(response.text)
+		print("* reload *")
 		time.sleep(10) 
 		
 	time.sleep(3) 
