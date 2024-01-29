@@ -30,7 +30,7 @@ for x in range(3):
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	
 	# time.sleep(600) 
-	if len(cloudflale) == 1:
+	while len(cloudflale) == 1:
 		print("* Cloudflare  block *")
 		time.sleep(10) 
 		action = ActionChains(driver)
@@ -44,6 +44,7 @@ for x in range(3):
 		driver.get(response.text)
 		print("* Reload *")
 		time.sleep(10) 
+		cloudflale = driver.find_elements(By.XPATH, '//iframe')
 		
 	time.sleep(3) 
 	print("* Run Button 1 *")
