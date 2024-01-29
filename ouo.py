@@ -26,13 +26,13 @@ for x in range(3):
 	driver.set_window_size(1920, 1080)
 	driver.get(response.text)
 	print("* Loaded *")
-	time.sleep(10) 
+	time.sleep(3) 
 	cloudflale = driver.find_elements(By.XPATH, '//iframe')
 	
 	# time.sleep(600) 
 	while len(cloudflale) == 1:
 		print("* Cloudflare  block *")
-		time.sleep(10) 
+		time.sleep(5) 
 		action = ActionChains(driver)
 		action.move_by_offset(550, 380)
 		action.click()
@@ -43,7 +43,7 @@ for x in range(3):
 		print("* Bypassed *")
 		driver.get(response.text)
 		print("* Reload *")
-		time.sleep(10) 
+		time.sleep(5) 
 		cloudflale = driver.find_elements(By.XPATH, '//iframe')
 		
 	time.sleep(3) 
