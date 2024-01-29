@@ -8,7 +8,7 @@ import requests
 
 
 for x in range(3):
-	url = "https://launch.rhass.vn/api/get?status=2"
+	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
 	print("----------------")
@@ -37,6 +37,7 @@ for x in range(3):
 		action.move_by_offset(550, 380)
 		action.click()
 		action.perform()
+		time.sleep(10) 
 		# mouse.move(550, 380, duration = 1.0)
 		# mouse.click('left')
 		print("* Bypassed *")

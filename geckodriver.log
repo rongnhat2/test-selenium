@@ -648,7 +648,6 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -667,41 +666,36 @@ JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is d
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-t error: resource://devtools/client/framework/devtools.js, line 880: TypeError: inspector is undefined
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.press."
-console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal6442450986/windowGlobalTarget2"
-console.warn: "Listener for event 'frame' did not return a promise."
-console.warn: "Listener for event 'frame' did not return a promise."
-console.warn: "Listener for event 'frame' did not return a promise."
-console.warn: "Listener for event 'frame' did not return a promise."
-console.error: ({})
 JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.warn: "Listener for event 'frame' did not return a promise."
-console.warn: "getSourceActorBreakableLines failed: Error: Connection closed, pending request to server0.conn0.windowGlobal49392123905/source18, type getBreakableLines failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetSourceActorBreakableLines@resource://devtools/client/debugger/src/client/firefox/commands.js:459:36\nsetBreakableLines/<@resource://devtools/client/debugger/src/actions/sources/breakableLines.js:61:37\nthunk/</</<@resource://devtools/client/debugger/src/actions/utils/middleware/thunk.js:29:45\ndispatch@resource://devtools/client/shared/vendor/redux.js:681:28\nnewGeneratedSources/</<@resource://devtools/client/debugger/src/actions/sources/newSources.js:332:17\n"
-NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
-console.error: "Security state 0 has no known STATE_IS_* flags."
-NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
-console.error: "Security state 0 has no known STATE_IS_* flags."
-JavaScript error: resource://devtools/client/debugger/src/utils/context.js, line 46: Error: DebuggerContextError: Obsolete source actor (source 'server0.conn0.windowGlobal49392123905/source18' no longer exists)
-JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 82: debuggee 'https://c.adsco.re/:76' would run
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ouo.press."
-console.error: ({})
-1706440415652	Marionette	INFO	Stopped listening on port 52363
-Dynamically enable window occlusion 1
-1706441034878	geckodriver	INFO	Listening on 127.0.0.1:53283
-1706441037942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rhass\\AppData\\Local\\Temp\\rust_mozprofileG7jWG3"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1706441038211	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706498086511	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+l be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706498086639	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+able window occlusion 0
 1706441038286	Marionette	INFO	Listening on port 53292
 WebDriver BiDi listening on ws://127.0.0.1:53284
 Read port: 53292
