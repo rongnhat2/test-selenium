@@ -8,7 +8,7 @@ import requests
 
 
 for x in range(3):
-	url = "https://launch.rhass.vn/api/get?status=2"
+	url = "https://launch.rhass.vn/api/get?status=1"
 	response = requests.get(url)
 	response.encoding = 'utf-8'  
 	print("----------------")
